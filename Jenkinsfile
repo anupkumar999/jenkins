@@ -17,10 +17,11 @@ pipeline {
                 echo 'Development....'
             }
         }
-        stage('Deploy') {
+        stage('Update') {
             steps {
-                echo 'Deploying..'
+                echo 'Updating..'
             }
         }
+        v
     }
 }
